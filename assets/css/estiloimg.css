@@ -117,7 +117,7 @@ div.elemento:hover img {
  -webkit-transform:scale(1.3);transform:scale(1.3);
  
 }
-.elemento img {
+.elemento {
 	overflow: hidden;
 }
 
@@ -136,7 +136,7 @@ div.elemento:hover img {
 
 /*TAMAÑO DE LOS CONTENEDORES*/
 .elemento {
-	width: 30%;
+	width: 40%;
     background: rgb(234, 234, 234);
     float:right;
     margin-right: 22px;
