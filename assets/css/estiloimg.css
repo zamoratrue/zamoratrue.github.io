@@ -173,10 +173,11 @@ h1 {
 }
 
 .modal h3 {
-	color: #fff;
+	color: #0004;
 	font-size: 30px;
 	text-align: center;
 	margin: 15px 0;
+	font-variant: small-caps;
 }
 
 .imagen a {
