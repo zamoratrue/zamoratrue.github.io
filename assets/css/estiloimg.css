@@ -131,7 +131,7 @@ h1 {
 	text-align: center;
 }
 
-/*Estilos de la galeria*/
+/*Estilos de la galeria IMPORTANTE*/
 
 .galeria {
    
@@ -155,7 +155,7 @@ h1 {
     width: 30%;
 }
 
-/*Estilos del modal*/
+/*Estilos del modal - importante*/
 
 .modal {
 	display: none;
@@ -179,6 +179,13 @@ h1 {
 	margin: 15px 0;
 }
 
+.imagen a {
+	color: #000!important;
+	font-size: 40px;
+	text-decoration: none;
+	margin: 0 10px;
+}
+
 .imagen {
 	width: 100%;
 	height: 50%;
@@ -191,16 +198,17 @@ h1 {
 
 .imagen a:nth-child(2) {
 	
-	height: 100%;
+	
 	flex-shrink: 2;
 }
 
 .imagen img {
-	width: 100%%;
-	height: 100%;
+	width: 150%;
+	height: 150%;
 	max-width: 100%;
 	border: 7px solid #fff;
 	box-sizing: border-box;
+	margin-top: 50%;
 }
 
 .cerrar {
@@ -217,7 +225,9 @@ h1 {
 	border-radius: 50%;
 	line-height: 25px;
 }
-/*FINAL FEATURE*/
+/*FINAL FEATURE - importante*/
+
+
 /*CONTENEDORES DE PERFILES*/
 .contenedor {
 	width:90%;
@@ -225,10 +235,6 @@ h1 {
 	
 
 }
-/*div.elemento video {
-	width: 200px;
-}*/
-
 
 
 /*TAMAÑO DE LOS CONTENEDORES*/
